@@ -8,7 +8,7 @@ Every item on the roadmap is an issue, with a label that indicates each of the f
 
 - The Ditrit repository concerned by the feature. For a list of the main repositories, see below.
 
-- Once a feature is delivered, the *shipped* label will be applied to the roadmap issue and the issue will be closed with a comment.
+- Once a feature is delivered, the ```shipped``` label will be applied to the roadmap issue and the issue will be closed with a comment.
 
 ## Main repositories
 
@@ -16,9 +16,9 @@ Currently, the main repositories we are working on (and present in the roadmap) 
 
 - **leto**: Frontend application for low-code modelization of application architectures and configurations. 
 - **leto-module-client**: Contains generic classes and functions used by **leto**.
-- **gandalf**: Backend of *leto*.
+- **gandalf**: Backend of **leto**.
 - **shoset**: Library for creating multi-ends sockets, used by **gandalf**.
-- **terrator**: Library for converting Terraform files to JS files (and vice versa). For now it is named *iactor* but should be renamed soon.
+- **terrator**: Library for converting Terraform files to JS files (and vice versa). For now it is named **iactor** but should be renamed soon.
 - **toscator**: Library for converting Tosca files to JS files (and vice versa).
 - **kubernator**: Library for converting Kubernetes files to JS files (and vice versa). Do not exist yet.
 - **jenkinator**: Library for converting Jenkins files to JS files (and vice versa). Do not exist yet.
